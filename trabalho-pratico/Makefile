@@ -4,6 +4,7 @@ LDFLAGS=`pkg-config --libs glib-2.0` -lm
 
 OBJ_DIR=obj
 $(shell mkdir -p $(OBJ_DIR))
+$(shell mkdir -p Resultados)
 
 EXECUTABLES=programa-principal programa-testes
 
